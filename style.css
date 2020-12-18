@@ -1,0 +1,110 @@
+.main-header{
+    background-color: orange;
+    padding: 10px 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.main-header h1{
+    font-size: 50px;
+    text-shadow: 2px 5px darkgray;
+    text-align: center;
+}
+
+.input-button{
+    display: flex;
+    justify-content: center;
+}
+
+.searchbox-container{
+    margin-top: 10px;
+}
+
+.searchbox-container input{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.button{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sidebars-dishes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebars{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.sidebars a{
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+}
+
+.sidebars .chinese{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px orange;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    border-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebars .indian{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px orange;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sidebars .italian{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px orange;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sidebars .african{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px orange;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+}
+
+.cuisines{
+    font-size: 20px;
+    margin-right: 700px;
+    margin-top: 150px;
+}
+
+.main-content{
+    margin-right: 300px;
+}
+
+ul{
+    list-style: none;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px orange;
+}
+
